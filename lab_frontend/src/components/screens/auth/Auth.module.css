@@ -1,0 +1,53 @@
+.auth {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.back {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 2;
+}
+
+.form {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form > h1 {
+	margin-bottom: 30px;
+}
+
+.form > label {
+	margin-bottom: 20px;
+}
+
+.form > label > span {
+	font-size: 20px;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+}
+
+.btns {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.link {
+	border: 0;
+	background-color: inherit;
+	cursor: pointer;
+}
+
+.link:hover {
+	text-decoration: underline;
+}

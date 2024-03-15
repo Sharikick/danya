@@ -1,0 +1,36 @@
+.header {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header > ul {
+	list-style: none;
+	display: flex;
+	gap: 50px;
+}
+
+.header > ul > li > a {
+	color: #565151;
+	font-size: 20px;
+	transition: color 0.2s linear;
+}
+
+.header > ul > li > a:hover {
+	color: #000;
+}
+
+.btn {
+	cursor: pointer;
+	color: #fff;
+	padding: 10px 20px;
+	background-color: rgba(0, 183, 255, 0.8);
+	border-radius: 4px;
+	font-size: 18px;
+	transition: background-color 0.2s linear;
+}
+
+.btn:hover {
+	background-color: rgba(0, 183, 255, 1);
+}
